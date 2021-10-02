@@ -7,7 +7,7 @@ import Card from './components/UI/Card';
 function App() {
 
   const chamas = useSelector(state=>state.chamas.chamas);
-
+  
   return (
     <Card>
       <Chamas chamas={chamas}/>
