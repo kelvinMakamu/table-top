@@ -5,6 +5,10 @@ const initialChamasState = {
         {
             id:'1',organization:'AkiliMali',name:'Mwendazake',location:'Free Area', county:'Nakuru',
             status:'active',branch:'Nakuru',accountManager:'Johnson Mweru',createdAt:'2021-08-09'
+        },
+        {
+            id:'2',organization:'Lolwe',name:'Lamcha',location:'Kapsabet', county:'Baringo',
+            status:'active',branch:'Kapsabet',accountManager:'Johnson Mwas',createdAt:'2021-08-09'
         }
     ]
 };

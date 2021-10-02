@@ -1,17 +1,20 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import './App.css';
 import Chamas from './components/Chamas/Chamas';
-import Card from './components/UI/Card';
+import Header from './components/Layout/Header';
+import Wrapper from './components/Layout/Wrapper';
 
 function App() {
 
   const chamas = useSelector(state=>state.chamas.chamas);
   
   return (
-    <Card>
-      <Chamas chamas={chamas}/>
-    </Card>
+    <>
+      <Header/>
+      <Wrapper>
+        <Chamas chamas={chamas}/>
+      </Wrapper>
+    </>
   );
 }
 
